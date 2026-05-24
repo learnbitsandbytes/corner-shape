@@ -1,0 +1,42 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+button {
+  font-size: 1.5rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  .box {
+    margin-top: 1rem;
+    width: 25rem;
+    height: 25rem;
+    background-color: rebeccapurple;
+    border-radius: 30px;
+
+    &.round {
+      corner-shape: round;
+    }
+    &.scoop {
+      corner-shape: scoop;
+    }
+    &.bevel {
+      corner-shape: bevel;
+    }
+    &.notch {
+      corner-shape: notch;
+    }
+    &.square {
+      corner-shape: square;
+    }
+    &.squircle {
+      corner-shape: squircle;
+    }
+  }
+}
